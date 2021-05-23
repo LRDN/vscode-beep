@@ -3,7 +3,7 @@
   "displayName": "Beep",
   "description": "Visual Studio Code plugin (macOS only) that plays the system alert sound whenever the end of the undo/redo stack has been reached.",
   "publisher": "LRDN",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "beep.png",
   "repository": {
     "type": "git",
@@ -12,6 +12,9 @@
   "engines": {
     "vscode": "^1.55.0"
   },
+  "extensionKind": [
+    "ui"
+  ],
   "activationEvents": [
     "onCommand:vscode-beep.undo",
     "onCommand:vscode-beep.redo"
